@@ -1,0 +1,72 @@
+.best-head{
+    border:2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color:rgb(35, 35, 42);
+    color: blanchedalmond;
+}
+.shiping-flexbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:100px;
+    align-items: center;
+}
+.shiping-box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       width: 300px;
+       height: 300px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       background-color: #ffffff;
+       border-radius: 13px;
+       -ms-flex-item-align: start;
+}
+.boxs{
+    margin-left:100px;
+
+}
+#truck{
+    font-size: 40px;
+    font-weight: 80px;
+    color:red;
+    margin-bottom:20px;
+}
+#refund{
+    font-size: 40px;
+    font-weight: 80px;
+    color:red;
+    margin-bottom:20px;
+}
+.shiping-box h2{
+
+}
+
+.shiping-box h5{
+    margin-top:20px;
+    width:200px;
+}
+@media (max-width:1000px){
+    .best-head{
+        margin-left: 100px;
+        margin-right:100px;
+    }
+    .shiping-flexbox{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:100px;
+        align-items: center;
+    }
+    .boxs{
+        margin-left:0px;
+        margin-top:20px;
+    
+    }
+}

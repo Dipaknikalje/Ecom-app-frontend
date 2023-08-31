@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imageSlider{
+    width: 100%;
+    /* height: 50vh; */
+    background-size: cover;
+    display: grid;
+    position:relative;
+    top: -2.5rem;
+    z-index: -1;
+    box-shadow: 10px 13px 395px 0px rgba(219,203,203,0.75);
+    transition: imgcall 5s linear;
+}
+@media (max-width:1000px){
+ .imageSlider{
+    height:fit-content;
+ }
+}

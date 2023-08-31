@@ -1,0 +1,115 @@
+.nav-logo{
+    position:absolute;
+    top: 20px;
+    right:0;
+}
+.nav-logo ul{
+    display:inline-flex;
+    color:white;
+}
+.nav-logo ul li{
+    padding:10px;
+}
+.nav-logo ul button{
+    padding: 15px;
+    background: none;
+    /* background-color:#2c3e50; */
+    border-style: none;
+    position:relative;
+    top:-5px;
+}
+#cart {
+    /* padding: 15px; */
+    background: none;
+    /* background-color:#2c3e50; */
+    border-style: none;
+    position:relative;
+    top:0px;
+    left:20px;
+    color:white;
+    font-size:20px;
+}
+.products{
+    color:red;
+}
+#searchbar{
+    height:20px;
+}
+#search{
+    position:relative;
+    left:10px;
+    font-size: 15px;
+}
+#profile{
+    color:white;
+    font-size:20px;
+    position:relative;
+    top:0px;
+}
+/* #cart{
+    color:white;
+    font-size:20px;
+} */
+
+@media (min-width:760px){
+    .profile-cart{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+    }
+
+    #cart{
+        padding-left:80px;
+    }
+}
+
+
+
+
+@media (max-width:1000px){
+    .nav-logo {
+        position: relative;
+        top: -60px;
+        left: 0;
+    }
+    .nav-logo ul{
+        /* display:inline-flex;
+        color:white;
+        float:right;
+        line-height: 80px;
+        margin-right: 80px;
+        cursor:pointer;
+        position:absolute;
+        left:0 */
+        /* right:550px;
+        top:-10px; */
+        
+    }
+    #cart{
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    top: -18px;
+    left: 83%;
+    }
+    #profile{
+        color:white;
+        position:absolute;
+        top:-28px;
+        right:70px;
+        font-size:25px;
+    }
+    .searchbar{
+        position: relative;
+        left: 65px;
+        top: 16px;
+        width: 150%;
+        height: 25px;
+    }
+    #search{
+        position:relative;
+        font-size: 20px;
+        top:20px;
+        left:80px;
+    }
+}

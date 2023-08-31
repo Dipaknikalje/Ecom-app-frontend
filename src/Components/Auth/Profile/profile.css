@@ -1,0 +1,29 @@
+
+.user-profile{
+    width:200px;
+    display: flex;
+    flex-direction: column;
+}
+.user-profile ul {
+    color:black;
+    display:block;
+    position:absolute;
+    right: 0;
+    top:60px;
+    background: whitesmoke;
+}
+.user-profile ul li :hover {
+display:block;
+}
+.user-profile ul .register,.login {
+color:black;
+}
+.user-profile ul li:hover{
+    color:blue;
+}
+.user-profile ul .register:hover{
+    color:blue;
+}.user-profile ul .login:hover{
+    color:blue;
+}
+

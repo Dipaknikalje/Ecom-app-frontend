@@ -1,0 +1,10 @@
+body{
+    margin-top:80px;
+    
+}
+.navbar-main{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:9999;
+}

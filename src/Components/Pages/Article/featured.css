@@ -1,0 +1,137 @@
+.LogoAllignment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .HeaderRight {
+    display: flex;
+    gap: 20px;
+    padding-left: 40%; 
+    align-items: center;
+} */
+
+.HeaderRight {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.sub_Logo_header_align {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.Logo_header_align {
+    display: flex;
+    justify-content: center;
+}
+
+.HeaderRight {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.FeaturedHomeCntnr{
+    padding-top: 2rem ;
+    padding-bottom: 3rem;
+   display: flex;
+   justify-content: center;
+
+}
+.FeaturedCntnr{
+    padding-top: 2rem ;
+    padding-bottom: 3rem;
+   display: flex;
+   justify-content: center;
+}
+
+.Featcard{
+       /* border: 1px solid; */
+       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       width: 230px;
+       height: 300px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       background-color: #ffffff;
+       border-radius: 13px; 
+}
+.Featcard-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #ffffff; */
+
+}
+.Featcard-data p{
+    padding:20px;
+}
+
+.categorical {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 40px;
+}
+
+.Featcard div, .Featcard img {
+    cursor: pointer;
+}
+
+.Featcard:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.FeaturedSubCntnr {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.FeaturedSubCntnr img{
+    width: 110px;
+    height: 120px;
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+}
+
+.product_title{
+    /* color: darkkhaki; */
+    color: #4095a4;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.product_title:hover{
+    color: orangered;
+}
+
+
+
+@media (max-width:600px){
+    .logo_web{
+        display: none;
+    }
+
+    
+
+    .carousalTop{
+        padding-top: 6rem;
+    }
+
+    .FeaturedCntnr {
+    padding-top: 6rem;
+}
+
+}

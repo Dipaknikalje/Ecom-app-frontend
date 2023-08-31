@@ -1,0 +1,114 @@
+.product-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    gap: 1rem;
+}
+
+.PDFlex{
+    display: flex;
+    justify-content: center;
+}
+
+.pDImg{
+    width: 400px;
+    height: 400px;
+}
+
+.pd_text_cntnr{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.pd_text_sub_cntnr {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: cursive;
+}
+
+.addCartBtn {
+    background-color: #1877f2;
+    border: 1px solid  #1877f2;
+    box-sizing: border-box ;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 17px;
+    /* cursor: pointer; */
+}
+
+.addCartBtn:hover {
+    background-color: transparent;
+    color: #1877f2;
+    border: 1px solid  #1877f2;
+}
+
+.PD_title{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ff4252;
+    font-family: cursive;
+}
+
+/* .pd_hr{
+
+    border: 1px solid #CCD6E5;
+} */
+
+.similar-prod{
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 20px;
+}
+
+.pd_text-title {
+    color: #4095a4;
+    text-align: center;
+}
+
+@media (max-width:600px){
+
+    .pDImg {
+        width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.detail_cntnr {
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 2rem;
+    }
+.pd-img-cntnr{
+    width: 50%;
+    position: relative;
+
+}
+.pd_text-title {
+    color: #4095a4;
+    text-align: center;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    height: 4.3em;
+    overflow: hidden;
+}
+
+.pd_text_cntnr {
+    width: 50%;
+}
+}

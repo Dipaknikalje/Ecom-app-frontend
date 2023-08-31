@@ -1,0 +1,11 @@
+.sheeping{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.sheeping div{
+    width:300px;
+    hight:200px;
+}
